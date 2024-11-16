@@ -18,8 +18,9 @@ int main()
         if (flag == true)
             break;
     };
+    cout << "sorted array is:";
     for (int i = 0; i < n - 1; i++)
     {
-        cout << "sorted array is:" << a[i] << " ";
+        cout << a[i] << " ";
     }
 }
